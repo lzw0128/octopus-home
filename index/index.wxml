@@ -1,0 +1,26 @@
+<view class='top'>
+  <image class='bg-img' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1534962504694&di=357b241fa0e8eb48bb5aa646bc82cf6d&imgtype=0&src=http%3A%2F%2Fa.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2F0824ab18972bd4077557733177899e510eb3096d.jpg'></image>
+    
+  <text class='close'>X</text>
+  <view class='top-wrap'>
+    <text>#包包专区</text>
+    <image src='https://cdn-img.easyicon.net/png/114/11456.gif'></image>
+    <text>还在买千篇一律的淘宝爆款吗?</text>
+    <text>快来我们这里定制专属包包吧。</text>
+  </view>
+</view>
+
+<view class='crumbs'>
+    <text wx:for="{{navbar}}" data-idx="{{index}}" class="{{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>
+  </view>
+
+<view class='area'>
+    <view class='box'>
+      <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1534962504694&di=357b241fa0e8eb48bb5aa646bc82cf6d&imgtype=0&src=http%3A%2F%2Fa.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2F0824ab18972bd4077557733177899e510eb3096d.jpg'></image>
+
+      <view class='num-wrap'>
+        <text>999人下单</text>
+      </view>
+      <view class='triangle_border_down'></view>
+    </view>
+</view>

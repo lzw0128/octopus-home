@@ -1,0 +1,115 @@
+page{
+  width: 100%;
+  height: 100%;
+}
+
+.top{
+  height: 60%;
+}
+
+.top .bg-img{
+  width: 100%;
+  height: 100%;
+}
+
+.top .close{
+  position: absolute;
+  top: 1%;
+  right: 3%;
+}
+
+.top-wrap{
+  position: absolute;
+  top: 8%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20%;
+  color: white;
+}
+
+.top-wrap text:nth-child(1){
+  display: inline-block;
+  text-align: center;
+}
+
+.top-wrap image{
+  width: 100rpx;
+  height: 150rpx;
+  margin: 0 auto;
+}
+
+.top-wrap text:nth-child(3){
+  display: inline-block;
+  font-size: 28rpx;
+}
+
+.top-wrap text:nth-child(4){
+  display: inline-block;
+  font-size: 28rpx;
+}
+
+.crumbs{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 110rpx;
+}
+
+.crumbs text{
+  flex: 1;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+}
+
+.crumbs .active{
+  border-bottom-width: 1px;
+  border-bottom:thick solid #FFCC00;
+}
+
+
+.area{
+  background-color: gainsboro;
+  padding: 2%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.area .box{
+  margin-left: 2%;
+  margin-top: 10rpx;
+  width: 45%;
+  height: 500rpx;
+  background-color: white;
+  position: relative;
+}
+
+.box image:nth-child(1){
+  width: 100%;
+  height: 350rpx;
+}
+
+.num-wrap{
+  position: absolute;
+  right: 15rpx;
+  top: 15rpx;
+  background-color: black;
+  height: 60rpx;
+}
+
+.num-wrap text{
+  color: orange;
+  font-size: 26rpx;
+  padding: 10rpx;
+  line-height: 60rpx;
+}
+
+.triangle_border_down{
+    position: absolute;
+    right: 35rpx;
+    top: 75rpx;
+    border-width:30rpx 30rpx 0;
+    border-style:solid;
+    border-color:black transparent transparent;/*灰 透明 透明 */
+}
